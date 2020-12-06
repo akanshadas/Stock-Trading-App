@@ -12,5 +12,9 @@ symbols to track their stock prices.
 - Used third party libraries like Glide for image caching and Volley for making HTTP requests.
 
 I will be rolling out an APK for anyone to use it soon. 
+
+The backend is hosted on https://akansha-hw9-backend.wm.r.appspot.com
+A sample endpoint is https://akansha-hw9-backend.wm.r.appspot.com/details1?term=msft
+
 For now, this video explains how the app functions and looks:
 https://www.youtube.com/watch?v=VH63nyau-Nc
