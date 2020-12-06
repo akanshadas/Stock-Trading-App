@@ -13,8 +13,8 @@ symbols to track their stock prices.
 
 I will be rolling out an APK for anyone to use it soon. 
 
-The backend is hosted on https://akansha-hw9-backend.wm.r.appspot.com
-A sample endpoint is https://akansha-hw9-backend.wm.r.appspot.com/details1?term=msft
+The backend is written in Node.js and is hosted on https://akansha-hw9-backend.wm.r.appspot.com
+A sample endpoint is https://akansha-hw9-backend.wm.r.appspot.com/news?term=msft
 
 For now, this video explains how the app functions and looks:
 https://www.youtube.com/watch?v=VH63nyau-Nc
