@@ -93,7 +93,7 @@ public class PortfolioAdapter extends RecyclerView.Adapter<PortfolioAdapter.MyVi
             float no_shares = (float) sharedPreferencesPorfolio.getInt(ticker,0);
             holder.shares_cardID.setText(String.valueOf(no_shares)+" shares");
         }
-        String url2 ="http://192.168.0.4:3000/details2?term=" + ticker;
+        String url2 ="https://akansha-hw9-backend.wm.r.appspot.com/details2?term=" + ticker;
         JsonObjectRequest jsonObjReq2 = new JsonObjectRequest(Request.Method.GET, url2, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {

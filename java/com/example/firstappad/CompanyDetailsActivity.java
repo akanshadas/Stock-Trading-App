@@ -207,7 +207,7 @@ public class CompanyDetailsActivity extends AppCompatActivity {
     public void CompanyDeets1GET() {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://192.168.0.4:3000/details1?term=" + ticker;
+        String url ="https://akansha-hw9-backend.wm.r.appspot.com/details1?term=" + ticker;
 
         // Request a string response from the provided URL.
 
@@ -241,7 +241,7 @@ public class CompanyDetailsActivity extends AppCompatActivity {
     public void CompanyDeets2GET() {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://192.168.0.4:3000/details2?term=" + ticker;
+        String url ="https://akansha-hw9-backend.wm.r.appspot.com/details2?term=" + ticker;
 
         // Request a string response from the provided URL.
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
@@ -318,7 +318,7 @@ public class CompanyDetailsActivity extends AppCompatActivity {
         Log.i(TAG, "CompanyDeets2GET-----------------------");
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://192.168.0.4:3000/news?term=" + ticker;
+        String url ="https://akansha-hw9-backend.wm.r.appspot.com/news?term=" + ticker;
 
         // Request a string response from the provided URL.
 

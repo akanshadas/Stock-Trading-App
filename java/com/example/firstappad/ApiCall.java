@@ -34,7 +34,7 @@ public class ApiCall {
     }
     public static void make(Context ctx, String query, Response.Listener<String>
             listener, Response.ErrorListener errorListener) {
-        String url = "http://192.168.0.4:3000/autoComplete?term="+query;
+        String url = "https://akansha-hw9-backend.wm.r.appspot.com/autoComplete?term="+query;
         //String url = "https://api.tiingo.com/tiingo/utilities/search?query=" + query + "&token=0d4d0b16d5d78a6e4e7a93f93aa219b215827d30";//"http://localhost:3000/autocomplete?term=aaa";
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,

@@ -92,7 +92,7 @@ public class WatchlistAdapter extends RecyclerView.Adapter<WatchlistAdapter.MyVi
         }
         else
         {
-            String url1 ="http://192.168.0.4:3000/details1?term=" + ticker;
+            String url1 ="https://akansha-hw9-backend.wm.r.appspot.com/details1?term=" + ticker;
             JsonObjectRequest jsonObjReq1 = new JsonObjectRequest(Request.Method.GET, url1, null, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {
@@ -114,7 +114,7 @@ public class WatchlistAdapter extends RecyclerView.Adapter<WatchlistAdapter.MyVi
 
                                                                             //2. GETTING ticker current price and change
         // IF NUMBER OF SHARES == 0, then
-        String url2 ="http://192.168.0.4:3000/details2?term=" + ticker;
+        String url2 ="https://akansha-hw9-backend.wm.r.appspot.com/details2?term=" + ticker;
         JsonObjectRequest jsonObjReq2 = new JsonObjectRequest(Request.Method.GET, url2, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
