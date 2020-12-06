@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color> <!--  window color bg-->
+    <color name="colorOnPrimary">#000000</color>        <!--  action bar text color-->
+    <color name="colorPrimaryDark">#f4f2f4</color> <!--  action bar color bg-->
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="purple">#FF6200EE</color>
+    <color name="green">#319c5e</color>
+    <color name="lightgrey">#e1e3e5</color>
+    <color name="darkgrey">#616161</color>
+    <color name="red">#9b4049</color>
+
+</resources>
